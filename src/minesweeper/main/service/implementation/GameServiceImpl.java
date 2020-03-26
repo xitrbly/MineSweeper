@@ -65,10 +65,10 @@ public class GameServiceImpl implements GameService {
    * This method is for processing mouse events for a field. Distributes the event and its
    * parameters into the methods of the event handler service, depending on the button pressed
    *
-   * @param x     - координата клика x
-   * @param y     - координата клика y
-   * @param event - событие клика
-   * @param field - поле
+   * @param x     - click X coordinate
+   * @param y     - click Y coordinate
+   * @param event - click event
+   * @param field - game field
    * @see FieldListenerServiceImpl
    */
   private void mouseEventHandler(int x, int y, MouseEvent event, FieldCell[][] field,
