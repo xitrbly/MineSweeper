@@ -101,8 +101,8 @@ public class FieldServiceImpl implements FieldService {
   /**
    * This method generates random coordinates. Used to fill the field cells with mines.
    *
-   * @param maxWidth- максимальные значение ширины игрового поля
-   * @param maxLength - максимальные значение высоты игрового поля
+   * @param maxWidth- maximum value of the playing field width
+   * @param maxLength - maximum value of the playing field height
    */
   public FieldCell generateRandomFieldCellCoordinate(int maxWidth, int maxLength) {
     return new FieldCell(random.nextInt((maxWidth - 1)), random.nextInt(maxLength - 1));
